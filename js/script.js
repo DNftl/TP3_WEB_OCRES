@@ -78,3 +78,25 @@ function start2() {
     });
 }
 
+/*
+
+function getThreeDayForecast() {
+
+  const city = document.getElementById('city-input').value;
+  const apiWeather = new API_WEATHER(city);
+
+  apiWeather
+    .fetch3DaysForecast()
+    .then(function(response) {
+
+
+     // a suivre
+
+
+      
+    })
+    .catch(function(error) {
+      // Affiche une erreur
+      console.error(error);
+    });
+}*/
