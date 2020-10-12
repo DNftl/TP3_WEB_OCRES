@@ -34,19 +34,6 @@ class API_WEATHER{
     if(city === undefined){
       city = "paris";
     }
-    /*if(city === Marseille){
-      city = "marseille";
-    }
-    if(city === Mocano){
-      city = "monaco";
-    }
-    if(city === Lille){
-      city = "lille";
-    }
-    if(city === Lyon){
-      city = "lyon";
-    }*/
-
     this.city = city;
   }
 
