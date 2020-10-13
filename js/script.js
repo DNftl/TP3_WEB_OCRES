@@ -90,7 +90,7 @@ function start3() {
 
 
     const data = response.data;
-/* technique 1
+//technique 1
     const main=[];
     const description=[];
     const temp=[];
@@ -123,7 +123,7 @@ function start3() {
       document.getElementById('third-weather-container').innerHTML = icon[3];
       document.getElementById('third-forecast-temp').innerHTML = `${temp[3]}°C`;
 
-*/
+
 /*Technique 2
 
   for (i=1; i<4; i++)
@@ -158,7 +158,7 @@ function start3() {
     }*/
 
 //technique 3
-
+/*
       const main1 = data.list[1].weather[0].main;
       const description1 = data.list[1].weather[0].description;
       const temp1 = data.list[1].temp.day;
@@ -191,6 +191,8 @@ function start3() {
       document.getElementById('third-forecast-more-info').innerHTML = description3;
       document.getElementById('third-weather-container').innerHTML = icon3;
       document.getElementById('third-forecast-temp').innerHTML = `${temp3}°C`;
+
+      */
       
     })
     .catch(function(error) {
