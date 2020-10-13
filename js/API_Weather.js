@@ -12,7 +12,6 @@ const API_URL_ICON = "http://openweathermap.org/img/wn/";
 const API_URL2 = "https://api.openweathermap.org/data/2.5/forecast/daily";
 const nbJ = "3";
 
-
 //test
 /*
 var request1 = new XMLHttpRequest();
