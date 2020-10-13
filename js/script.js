@@ -79,7 +79,6 @@ function start2() {
 }
 
 /*
-
 function getThreeDayForecast() {
 
   const city = document.getElementById('city-input').value;
